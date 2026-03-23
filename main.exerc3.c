@@ -19,7 +19,7 @@ int main()
     //Leitura do ano de nascimento
     scanf("%d",&ano_nasc);
     //Pergunta
-    printf("Voce ja fez aniversario esse ano? ");
+    
     //Leitura da resposta
     scanf(" %c",&resposta);
     //Condicionais
@@ -29,7 +29,7 @@ int main()
     }
     else 
     {
-        idade=2025-ano_nasc;
+        idade=2026-ano_nasc-1;
     }
     //Impressão da idade
     printf("%d\n",idade);
