@@ -18,16 +18,14 @@ int main()
     char resposta;
     //Leitura do ano de nascimento
     scanf("%d",&ano_nasc);
-    //Pergunta
-    
     //Leitura da resposta
     scanf(" %c",&resposta);
     //Condicionais
-    if (resposta='S')
+    if (resposta == 'S')
     {
         idade=2026-ano_nasc;
     }
-    else 
+    else if (resposta == 'N')
     {
         idade=2026-ano_nasc-1;
     }
