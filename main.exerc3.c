@@ -5,15 +5,15 @@
     Data: 17/3/26
     Objetivo: Leia o ano de nascimento de uma pessoa e
     calcule sua idade, considerando o ano atual.
-    Pergunte se a pessoa já fez aniversário, sendo
-    que ela pode entrar com a informação "S"(sim) ou "N"(não).
-    Imprima a idade da pessoa. Verifique também se a pessoa já
-    tem idade para conseguir Carteira de Habilitação (18 anos ou mais)
+    Pergunte se a pessoa jÃ¡ fez aniversÃ¡rio, sendo
+    que ela pode entrar com a informaÃ§Ã£o "S"(sim) ou "N"(nÃ£o).
+    Imprima a idade da pessoa. Verifique tambÃ©m se a pessoa jÃ¡
+    tem idade para conseguir Carteira de HabilitaÃ§Ã£o (18 anos ou mais)
     e imprima a mensagem referente a esta checagem ("Pode dirigir"ou "Nao pode dirigir").
 */
 int main()
 {
-    //Declaração
+    //DeclaraÃ§Ã£o
     int ano_nasc, idade;
     char resposta;
     //Leitura do ano de nascimento
@@ -27,13 +27,13 @@ int main()
     {
         idade=2026-ano_nasc;
     }
-    else if (resposta='N')
+    else 
     {
-        idade=2026-ano_nasc-1;
+        idade=2025-ano_nasc;
     }
-    //Impressão da idade
+    //ImpressÃ£o da idade
     printf("%d\n",idade);
-    //Condicionais e impressão
+    //Condicionais e impressÃ£o
     if (idade>=18)
     {
         printf("Pode dirigir\n");
